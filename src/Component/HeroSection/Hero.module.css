@@ -1,0 +1,540 @@
+.main_div {
+    height: 1312px;
+    background-color: #0E0C38;
+    max-width: 1920px;
+}
+
+.Container {
+    margin-left: 90px;
+    display: flex;
+    padding: 29px;
+
+}
+
+.logos {
+    width: 265px;
+    height: 137px;
+
+
+}
+
+.navbar {
+    width: 46%;
+    display: flex;
+    background-color: #0E0C38;
+    overflow: auto;
+    height: 137px;
+    padding: 27px;
+    margin-left: auto;
+
+}
+
+.navbar_a {
+    color: white;
+    text-decoration: none;
+    font-size: 22px;
+    font-weight: 700;
+    padding-top: 19px;
+    justify-content: space-between;
+    margin-left: 65px;
+
+}
+
+.navbar_btn {
+    background-color: #0E0C38;
+    color: seashell;
+    font-size: 22px;
+    border-radius: 32px;
+    border: 3px solid white;
+    margin-left: 65px;
+    width: 202px;
+    height: 72px;
+}
+
+.navbar_btn:hover {
+    background-color: #FF0513;
+
+}
+
+.navbar_a:hover {
+    background-color: #FF0513;
+    border-bottom: 5px solid red;
+}
+
+
+
+
+.dots_img {
+    width: 590px;
+    height: 263px;
+    margin-left: 313px;
+    margin-top: -216px
+}
+
+.intro_txt {
+
+    font-size: 41px;
+    font-weight: 500;
+    color: white;
+    font-family: "Poppins";
+}
+
+.Containers {
+    margin-left: 90px;
+    padding: 29px;
+
+}
+
+.text_field {
+    width: 644px;
+    display: flex;
+    height: 346px;
+}
+
+.txt_name {
+    font-size: 150px;
+    font-weight: bold;
+    font-family: "Poppins", sans-serif;
+}
+
+.UX {
+    color: rgb(241, 36, 36);
+
+}
+
+.UX_paraghrap {
+    font-size: 26px;
+    font-weight: 500;
+    color: white;
+    margin-top: 163px;
+    font-family: "Poppins", sans-serif;
+
+}
+
+.man_pic {
+    width: 908px;
+    height: 1033px;
+}
+
+.button {
+    display: flex;
+}
+
+.btn1 {
+    border-radius: 40px;
+    background-color: #0E0C38;
+    border: 2px solid white;
+    color: white;
+    width: 279px;
+    height: 96px;
+    margin-top: 69px;
+    font-size: 30px;
+    font-family: Raleway;
+    margin-left: 26px;
+
+}
+
+.btn1:hover {
+    background-color: red;
+}
+
+.sideots {
+    margin-left: auto;
+    width: 105px;
+    height: 277px;
+    margin-bottom: 20px;
+}
+
+.social_link {
+    display: flex;
+    margin-top: 30px;
+
+}
+
+.icon {
+    margin-left: 30px;
+}
+
+.icon:hover {
+    border-radius: 30px;
+    border: 2px solid red;
+
+}
+
+.icon_paraghrap {
+    color: white;
+    font-size: 30px;
+    margin-left: 22px;
+    font-weight: 700;
+    margin-top: 40px;
+    font-family: "Poppins", sans-serif;
+}
+/* ******************************************** */
+@media only screen and (max-width:1024px) {
+ .main_div {
+        height: 1312px;
+        background-color: #0E0C38;
+        max-width: 100%;
+    }
+    
+    .Container {
+       margin: 0%;
+        display: flex;
+       padding: 9px;
+    
+    }
+    
+    .logos {
+        width: 100px;
+        height: 99px;
+        margin-left: 2px;
+    
+    
+    }
+    
+    .navbar {
+        display: flex;
+        background-color: #0E0C38;
+        overflow: auto;
+        height: 137px;
+        width: 100%;
+        margin-left: 206px;
+    
+    }
+    
+    .navbar_a {
+        color: white;
+        text-decoration: none;
+        font-size: 22px;
+        font-weight: 700;
+        padding-top: 19px;
+        justify-content: space-between;
+        margin-left: 65px;
+    
+    }
+    
+    .navbar_btn {
+        background-color: #0E0C38;
+        color: seashell;
+        font-size: 22px;
+        border-radius: 32px;
+        border: 3px solid white;
+        margin-left: 65px;
+        width: 202px;
+        height: 72px;
+    }
+    
+    .navbar_btn:hover {
+        background-color: #FF0513;
+    
+    }
+    
+    .navbar_a:hover {
+        background-color: #FF0513;
+        border-bottom: 5px solid red;
+    }
+    
+    
+    
+    
+    .dots_img {
+        width: 119px;
+        height: 150px;
+        margin-left: 177px;
+        margin-top: -216px
+    }
+    
+    .intro_txt {
+    
+        font-size: 22px;
+        font-weight: 500;
+        color: white;
+        font-family: "Poppins";
+    }
+    
+   
+    
+    .text_field {
+        width: 644px;
+        display: flex;
+        height: 346px;
+    }
+    
+    .txt_name {
+        font-size: 58px;
+        font-weight: bold;
+        font-family: "Poppins", sans-serif;
+    }
+    
+    .UX {
+        color: rgb(241, 36, 36);
+    
+    }
+    
+    .UX_paraghrap {
+        font-size: 13px;
+        margin-left: -72px;
+        font-weight: 500;
+        color: white;
+        margin-top: 163px;
+        font-family: "Poppins", sans-serif;
+    
+    }
+    
+    .man_pic {
+        width: 650px;
+        height: 700px;
+    }
+    
+    .button {
+        display: flex;
+        margin-left: -106px
+    }
+    
+    .btn1 {
+        border-radius: 40px;
+        background-color: #0E0C38;
+        border: 2px solid white;
+        color: white;
+        width: 279px;
+        height: 96px;
+        margin-top: 69px;
+        font-size: 30px;
+        font-family: Raleway;
+        margin-left: 26px
+        
+    
+    }
+    
+    .btn1:hover {
+        background-color: red;
+    }
+    
+    .sideots {
+        margin-left: auto;
+        width: 105px;
+        height: 277px;
+        margin-bottom: 20px;
+    }
+    
+    .social_link {
+        display: flex;
+        margin-top: 30px;
+        margin-left: -97px;
+    
+    }
+    
+    .icon {
+        margin-left: 30px;
+    }
+    
+    .icon:hover {
+        border-radius: 30px;
+        border: 2px solid red;
+    
+    }
+    
+    .icon_paraghrap {
+        color: white;
+        font-size: 30px;
+        margin-left: -67px;
+        font-weight: 700;
+        margin-top: 40px;
+        font-family: "Poppins", sans-serif;
+    }
+
+
+
+
+}
+/* ******************************************************* */
+@media only screen and (max-width:767px) {
+    .main_div {
+        height: 1312px;
+        background-color: #0E0C38;
+        max-width: 100%;
+    }
+    
+    .Container {
+       margin: 0%;
+        display: flex;
+       padding: 4px;
+    
+    }
+    
+    .logos {
+        width: 60px;
+        height: 49px;
+        margin-left: 2px;
+    
+    
+    }
+    .logo_design{
+        width: 89px;
+    height: 66px;
+    margin-left: 6px;
+    margin-top: 30px;
+    }
+    
+    .navbar {
+     
+        background-color: #0E0C38;
+        overflow: auto;
+        height: 137px;
+        width: 100%;
+        margin-left: 67px
+    
+    }
+    
+    .navbar_a {
+        color: white;
+        text-decoration: none;
+        font-size: 22px;
+        font-weight: 700;
+        padding-top: 19px;
+        justify-content: space-between;
+        margin-left: 65px;
+    
+    }
+    
+    .navbar_btn {
+        background-color: #0E0C38;
+        color: seashell;
+        font-size: 22px;
+        border-radius: 32px;
+        border: 3px solid white;
+        margin-left: 65px;
+        width: 202px;
+        height: 72px;
+    }
+    
+    .navbar_btn:hover {
+        background-color: #FF0513;
+    
+    }
+    
+    .navbar_a:hover {
+        background-color: #FF0513;
+        border-bottom: 5px solid red;
+    }
+    
+    
+    
+    
+    .dots_img {
+        width: 100px;
+        height: 150px;
+        margin-left: 0px;
+        margin-top: -216px
+    }
+    
+    .intro_txt {
+    
+        font-size: 22px;
+        font-weight: 500;
+        color: white;
+        font-family: "Poppins";
+    }
+    
+   
+    
+    .text_field {
+        width: 644px;
+        display: flex;
+        height: 346px;
+    }
+    
+    .txt_name {
+        font-size: 58px;
+        font-weight: bold;
+        font-family: "Poppins", sans-serif;
+    }
+    
+    .UX {
+        color: rgb(241, 36, 36);
+    
+    }
+    
+    .UX_paraghrap {
+        font-size: 13px;
+        margin-left: -72px;
+        font-weight: 500;
+        color: white;
+        margin-top: 163px;
+        font-family: "Poppins", sans-serif;
+    
+    }
+    
+    .man_pic {
+        width: 362px;
+        height: 520px;
+    
+    }
+    
+    .button {
+        display: flex;
+        margin-left: -106px
+    }
+    
+    .btn1 {
+        border-radius: 40px;
+        background-color: #0E0C38;
+        border: 2px solid white;
+        color: white;
+        width: 279px;
+        height: 96px;
+        margin-top: 69px;
+        font-size: 30px;
+        font-family: Raleway;
+        margin-left: 26px
+        
+    
+    }
+    
+    .btn1:hover {
+        background-color: red;
+    }
+    
+    .sideots {
+        margin-left: auto;
+        width: 105px;
+        height: 277px;
+        margin-bottom: 20px;
+    }
+    
+    .social_link {
+        display: flex;
+        margin-top: 30px;
+        margin-left: -97px;
+    
+    }
+    
+    .icon {
+        margin-left: 30px;
+    }
+    
+    .icon:hover {
+        border-radius: 30px;
+        border: 2px solid red;
+    
+    }
+    
+    .icon_paraghrap {
+        color: white;
+        font-size: 30px;
+        margin-left: -67px;
+        font-weight: 700;
+        margin-top: 40px;
+        font-family: "Poppins", sans-serif;
+    }
+
+
+
+
+
+
+
+
+
+
+}

@@ -1,0 +1,113 @@
+.portfolio_card {
+  display: flex;
+  height: 520px;
+
+
+}
+
+/* *********************** */
+.container {
+  position: relative;
+  display: flex;
+  margin-top: 22px;
+  margin-left: 20px;
+
+
+}
+
+.image {
+  display: block;
+  width: 505px;
+  height: 510;
+  margin-left: 20px;
+  /* margin-top: 130px; */
+  border-radius: 20px;
+  border: rgb(20, 20, 20) solid;
+  box-shadow: rgba(0, 0, 0, 0.856);
+}
+
+.overlay {
+  position: absolute;
+  top: -0px;
+  bottom: 0;
+  left: 20px;
+  right: 0;
+  width: 505px;
+  height: 500px;
+  opacity: 0;
+  transition: .5s ease;
+  background-color: #ff06067c;
+  border-radius: 30px;
+}
+
+.container:hover .overlay {
+  opacity: 1;
+}
+
+.text {
+  color: white;
+  font-size: 20px;
+  position: absolute;
+  top: 81%;
+  left: 44%;
+  -webkit-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  /* text-align: center; */
+}
+/* ******************************************************** */
+@media only screen and (max-width:1024px) {
+.portfolio_card {
+  display: contents;
+    height: 520px;
+  }
+  .container {
+    position: relative;
+    margin-top: 22px;
+    margin-left: 20px;
+  
+  
+  }
+  
+  .image {
+    display: block;
+    width: 505px;
+    height: 510;
+    margin-left: 20px;
+    /* margin-top: 130px; */
+    border-radius: 20px;
+    border: rgb(20, 20, 20) solid;
+    box-shadow: rgba(0, 0, 0, 0.856);
+  }
+  
+  .overlay {
+    position: absolute;
+    top: -0px;
+    bottom: 0;
+    left: 20px;
+    right: 0;
+    width: 505px;
+    height: 500px;
+    opacity: 0;
+    transition: .5s ease;
+    background-color: #ff06067c;
+    border-radius: 30px;
+  }
+  
+  .container:hover .overlay {
+    opacity: 1;
+  }
+  
+  .text {
+    color: white;
+    font-size: 20px;
+    position: absolute;
+    top: 81%;
+    left: 44%;
+    -webkit-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+  
+  }
+
+}

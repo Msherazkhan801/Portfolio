@@ -1,0 +1,479 @@
+.Clint_main {
+    background-color: #040221;
+    height: 1297px;
+}
+
+.container {
+    margin-left: 200px;
+}
+
+.heading {
+    font-size: 60px;
+    font-family: "Poppins", sans-serif;
+    text-align: center;
+    color: white;
+    font-weight: 800;
+    padding-top: 101px;
+}
+
+.line {
+    background-color: rgb(255, 0, 0);
+    height: 2px;
+    width: 345px;
+    align-items: center;
+}
+
+.Capibality_pargh {
+    text-align: center;
+    color: white;
+    font-family: "Poppins", sans-serif;
+    font-size: 30px;
+    margin-right: 133px;
+    width: 1600px;
+    font-weight: 300;
+}
+
+.clint_dp {
+
+    display: flex;
+    margin-top: 117px;
+}
+
+.clint_pic_position {
+    position: relative;
+}
+
+.clint_info {
+
+    margin-left: 105px;
+}
+
+.map {
+    width: 809px;
+    position: relative;
+    margin-left: -180px;
+    margin-top: 185px;
+
+}
+
+.p {
+    width: 841px;
+    color: white;
+    font-size: 30px;
+    font-weight: 300;
+    font-family: "Poppins", sans-serif;
+}
+
+.clint_pic {
+    margin-left: -179px;
+    position: absolute;
+    top: 168px;
+}
+
+/* .clint_pic:hover{
+   border: 3px solid red;
+} */
+.clint_pic1 {
+    position: absolute;
+    top: 490px;
+    margin-left: 388px;
+
+}
+
+.img_boy {
+    width: 166px;
+    height: 166px;
+}
+
+.clint_pic2 {
+    position: absolute;
+    top: 234px;
+    margin-left: 112px;
+}
+
+.clint_pic3 {
+    position: absolute;
+    top: 60px;
+    left: 320px
+}
+
+.image_girl {
+    width: 125px;
+    height: 125px;
+}
+
+.img3 {
+    width: 160px;
+    height: 160px;
+}
+
+.img4 {
+    width: 96px;
+    height: 96px;
+
+}
+
+.clint_pic3a {
+    position: absolute;
+    top: 374px;
+    left: -56px
+}
+
+.clint_pic2a {
+    position: absolute;
+    top: 426px;
+    left: 99px;
+}
+
+.image_2a {
+    width: 187px;
+    height: 187px;
+}
+
+.pic_hover:hover {
+    border-radius: 97px;
+    border: 3px solid red;
+}
+
+.asset_dot_img {
+    margin-left: 318px;
+
+}
+
+.cline_data {
+    font-size: 22px;
+    color: white;
+
+}
+
+.clint_span {
+    font-size: 30px;
+    color: white;
+    font-family: "Poppins", sans-serif;
+}
+
+@media only screen and (max-width:1024px) {
+
+
+    .Clint_main {
+        background-color: #040221;
+        height: 1697px;
+    }
+
+    .container {
+        margin-left: 20px;
+    }
+
+    .heading {
+        font-size: 60px;
+        font-family: "Poppins", sans-serif;
+        text-align: center;
+        color: white;
+        width: 855px;
+        font-weight: 800;
+        padding-top: 101px;
+
+    }
+
+    .line {
+        background-color: rgb(255, 0, 0);
+        height: 2px;
+        width: 445px;
+        margin-left: 182px;
+
+    }
+
+    .Capibality_pargh {
+        text-align: center;
+        color: white;
+        font-family: "Poppins", sans-serif;
+        font-size: 19px;
+        margin-right: 133px;
+        width: 663px;
+        font-weight: 300;
+        margin-left: 139px;
+    }
+
+    .clint_dp {
+        margin-top: 117px;
+    }
+
+    .clint_pic_position {
+        position: relative;
+        margin-left: 280px;
+    }
+
+    .clint_info {
+        margin-left: -836px;
+        margin-top: 540px
+    }
+
+    .map {
+        width: 809px;
+        position: relative;
+        margin-left: -180px;
+        margin-top: 185px;
+
+    }
+
+    .p {
+        width: 841px;
+        color: white;
+        font-size: 30px;
+        font-weight: 300;
+        font-family: "Poppins", sans-serif;
+    }
+
+    .clint_pic {
+        margin-left: -179px;
+        position: absolute;
+        top: 168px;
+    }
+
+    /* .clint_pic:hover{
+       border: 3px solid red;
+    } */
+    .clint_pic1 {
+        position: absolute;
+        top: 490px;
+        margin-left: 388px;
+
+    }
+
+    .img_boy {
+        width: 166px;
+        height: 166px;
+    }
+
+    .clint_pic2 {
+        position: absolute;
+        top: 234px;
+        margin-left: 112px;
+    }
+
+    .clint_pic3 {
+        position: absolute;
+        top: 60px;
+        left: 320px
+    }
+
+    .image_girl {
+        width: 125px;
+        height: 125px;
+    }
+
+    .img3 {
+        width: 160px;
+        height: 160px;
+    }
+
+    .img4 {
+        width: 96px;
+        height: 96px;
+
+    }
+
+    .clint_pic3a {
+        position: absolute;
+        top: 374px;
+        left: -56px
+    }
+
+    .clint_pic2a {
+        position: absolute;
+        top: 426px;
+        left: 99px;
+    }
+
+    .image_2a {
+        width: 187px;
+        height: 187px;
+    }
+
+    .pic_hover:hover {
+        border-radius: 97px;
+        border: 3px solid red;
+    }
+
+    .asset_dot_img {
+        margin-left: 318px;
+
+    }
+
+    .cline_data {
+        font-size: 22px;
+        color: white;
+
+    }
+
+    .clint_span {
+        font-size: 30px;
+        color: white;
+        font-family: "Poppins", sans-serif;
+    }
+
+
+}
+
+/* ************************************************ */
+@media only screen and (max-width:767px) {
+
+    .Clint_main {
+        background-color: #040221;
+        height: 1697px;
+    }
+
+    .container {
+        margin-left: 20px;
+    }
+
+    .heading {
+        font-size: 46px;
+        font-family: "Poppins", sans-serif;
+        text-align: center;
+        color: white;
+        width: 753px;
+        font-weight: 800;
+        padding-top: 101px
+    }
+
+    .line {
+        background-color: rgb(255, 0, 0);
+        height: 2px;
+        width: 445px;
+        margin-left: 182px;
+
+    }
+
+    .Capibality_pargh {
+        text-align: center;
+        color: white;
+        font-family: "Poppins", sans-serif;
+        font-size: 19px;
+        margin-right: 133px;
+        width: 551px;
+        font-weight: 300;
+        margin-left: 120px
+    }
+
+    .clint_dp {
+        margin-top: 117px;
+    }
+
+    .clint_pic_position {
+        position: relative;
+        margin-left: 157px
+    }
+
+    .clint_info {
+        margin-left: -796px;
+        margin-top: 540p
+    }
+
+    .map {
+        width: 809px;
+        position: relative;
+        margin-left: -180px;
+        margin-top: 185px;
+
+    }
+
+    .p {
+        width: 750px;
+        color: white;
+        font-size: 20px;
+        font-weight: 300;
+        font-family: "Poppins", sans-serif;
+    }
+
+    .clint_pic {
+        margin-left: -179px;
+        position: absolute;
+        top: 168px;
+    }
+
+    /* .clint_pic:hover{
+       border: 3px solid red;
+    } */
+    .clint_pic1 {
+        position: absolute;
+        top: 490px;
+        margin-left: 388px;
+
+    }
+
+    .img_boy {
+        width: 166px;
+        height: 166px;
+    }
+
+    .clint_pic2 {
+        position: absolute;
+        top: 234px;
+        margin-left: 112px;
+    }
+
+    .clint_pic3 {
+        position: absolute;
+        top: 60px;
+        left: 320px
+    }
+
+    .image_girl {
+        width: 125px;
+        height: 125px;
+    }
+
+    .img3 {
+        width: 160px;
+        height: 160px;
+    }
+
+    .img4 {
+        width: 96px;
+        height: 96px;
+
+    }
+
+    .clint_pic3a {
+        position: absolute;
+        top: 374px;
+        left: -56px
+    }
+
+    .clint_pic2a {
+        position: absolute;
+        top: 426px;
+        left: 99px;
+    }
+
+    .image_2a {
+        width: 187px;
+        height: 187px;
+    }
+
+    .pic_hover:hover {
+        border-radius: 97px;
+        border: 3px solid red;
+    }
+
+    .asset_dot_img {
+        margin-left: 318px;
+
+    }
+
+    .cline_data {
+        font-size: 22px;
+        color: white;
+
+    }
+
+    .clint_span {
+        font-size: 30px;
+        color: white;
+        font-family: "Poppins", sans-serif;
+    }
+
+
+
+}

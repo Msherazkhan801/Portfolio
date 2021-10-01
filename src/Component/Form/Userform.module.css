@@ -1,0 +1,202 @@
+.form_section{
+    background-color: #040B33;
+    height: 1438px;
+}
+.form_container{
+    margin-left: 92px;
+    text-align: center;
+}
+.heading{
+    font-size: 60px;
+    font-family: "Poppins", sans-serif;
+    text-align: center;
+    color: white;
+    width: 586px;
+    margin: auto;
+    font-weight: 800;
+    padding-top: 232px;
+
+}
+
+.Capibality_pargh{
+ text-align: center;
+    color: white;
+    width: 1600px;
+    font-weight: 500;
+    font-size: 20px;
+    font-family: "Poppins", sans-serif;
+}
+.form_input1{
+    display: flex;
+    width: 1238px;
+    margin: 85px auto;
+    
+}
+.Input
+{
+    width: 594px;
+    height: 89px;
+ margin-left: 50px;
+ margin-top: -50px;
+}
+.input_massage{
+    width: 1195px;
+    height: 205px;
+    margin-top: -50px;
+    margin-left: 41px;
+   
+}
+.button{
+    margin: 90px auto;
+    width: 279px;
+    height: 85px;
+    background-color: #040B33; 
+    border-radius: 40px;
+    border: 2px solid white;
+    color: white;
+    font-size: 30px;
+}
+.button:hover{
+background-color: red;
+}
+@media only screen and (max-width:1024px) {
+    .form_section{
+        background-color: #040B33;
+        height: 1738px;
+    }
+    .form_container{
+        margin-left: 12px;
+        text-align: center;
+    }
+    .heading{
+        font-size: 60px;
+        font-family: "Poppins", sans-serif;
+        text-align: center;
+        color: white;
+        width: 586px;
+        margin: auto;
+        font-weight: 800;
+        padding-top: 232px;
+    
+    }
+    
+  
+    .form_input1{
+        display: flex;
+        width: 926px;
+        margin: 85px auto
+        
+    }
+    .Input
+    {
+        width: 594px;
+        height: 89px;
+     margin-left: 50px;
+     margin-top: -50px;
+    }
+    .input_massage{
+        width: 900px;
+        height: 205px;
+        margin-top: -50px;
+        margin-left: 41px;
+       
+    }
+    .button{
+        margin: 90px auto;
+        width: 279px;
+        height: 85px;
+        background-color: #040B33; 
+        border-radius: 40px;
+        border: 2px solid white;
+        color: white;
+        font-size: 30px;
+    }
+    .button:hover{
+    background-color: red;
+    }
+   .Capibality_pargh{
+        text-align: center;
+    color: white;
+    width: 550px;
+    font-weight: 500;
+    margin-left: 174px;
+    font-size: 20px;
+    font-family: "Poppins", sans-serif;
+       }
+
+}
+/* ************************************************************** */
+@media only screen and (max-width:767px) {
+    .form_section{
+        background-color: #040B33;
+        height: 1738px;
+    }
+    .form_container{
+        margin-left: 5px;
+        text-align: center;
+    }
+    .heading{
+        font-size: 60px;
+        font-family: "Poppins", sans-serif;
+        text-align: center;
+        color: white;
+        width: 586px;
+        margin: auto;
+        font-weight: 800;
+        padding-top: 232px;
+    
+    }
+    
+  
+    .form_input1{
+        display: flex;
+        width: 650px;
+        margin: 85px auto;
+        
+    }
+    .Input
+    {
+        width: 594px;
+        height: 89px;
+     margin-left: 50px;
+     margin-top: -50px;
+    }
+    .input_massage{
+        width: 611px;
+        height: 133px;
+        margin-top: -50px;
+        margin-left: 41px
+       
+    }
+    .button{
+        margin: 90px auto;
+        width: 279px;
+        height: 85px;
+        background-color: #040B33; 
+        border-radius: 40px;
+        border: 2px solid white;
+        color: white;
+        font-size: 30px;
+    }
+    .button:hover{
+    background-color: red;
+    }
+   .Capibality_pargh{
+        text-align: center;
+    color: white;
+    width: 550px;
+    font-weight: 500;
+    margin-left: 113px;
+    font-size: 20px;
+    font-family: "Poppins", sans-serif;
+       }
+
+
+
+
+
+
+
+
+
+}

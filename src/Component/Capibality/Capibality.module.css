@@ -1,0 +1,167 @@
+.main_section_capibality{
+    height: 1556px;
+    background-color: #0E0C38;
+
+}
+.container{
+        margin-left: 207px;
+   }
+
+.heading{
+    font-size: 60px;
+    font-family: "Poppins", sans-serif;
+    text-align: center;
+    color: white;
+   padding-top: 93px;
+   font-weight: 800;
+}
+.line{
+    background-color: rgb(255, 0, 0);
+    height: 2px;
+    width: 345px;
+    align-items: center;
+}
+.Capibality_pargh{
+ text-align: center;
+    color: white;
+    font-size: 30px;
+    width: 1600px;
+    font-weight: 300;
+    font-family: "Poppins", sans-serif;
+}
+.Capibality_define{
+
+    margin-top: 229px;
+    width: 1516px;
+    height: 688px;
+}
+.group_image{
+    display: flex;
+}
+.group_image2{
+    display: flex;
+    margin-top: 170px;
+}
+.group_pic_txt{
+justify-content: space-between;
+margin-left: 175px;
+}
+.group_pic_txt:hover{
+    border: 5px solid red;
+}
+.group_txt{
+    color: white;
+    width: 270px;
+    height: 122px;
+    text-align: center;
+    font-size: 22px;
+}
+.img{
+    margin-left: 70px;
+}
+.span{
+    font-size: 35px;
+    font-family: "Poppins", sans-serif;
+    font-weight: 600;
+}
+.span_paragraph{
+    font-size: 22px;
+    font-family: "Poppins", sans-serif;
+    font-weight: 300;
+}
+/* ************************************************* */
+@media only screen and (max-width:1024px) {
+
+
+    .main_section_capibality{
+        height: 2256px;
+        background-color: #0E0C38;
+    
+    }
+    .container{
+            margin-left: 30px;
+       }
+    
+    .heading{
+        font-size: 60px;
+        font-family: "Poppins", sans-serif;
+        text-align: center;
+        color: white;
+       padding-top: 93px;
+       font-weight: 800;
+    }
+    .line{
+        background-color: rgb(255, 0, 0);
+        height: 2px;
+        width: 345px;
+        align-items: center;
+    }
+    .Capibality_pargh{
+        text-align: center;
+        text-align: center;
+        color: white;
+        font-size: 25px;
+        margin-left: 2;
+        width: 773px;
+        font-weight: 300;
+        font-family: "Poppins", sans-serif;
+    }
+    .Capibality_define{
+    
+        margin-top: 229px;
+        width: 400px;
+        height: 688px;
+    }
+    .group_image{
+      display: contents;
+    }
+    
+    .group_image2{
+        display: contents;
+        margin-top: 170px;
+    }
+    .group_pic_txt{
+    justify-content: space-between;
+    margin-left: 175px;
+    margin-top: 31px;
+    }
+    .group_pic_txt:hover{
+        border: 5px solid red;
+    }
+    .group_txt{
+        color: white;
+        width: 270px;
+        height: 122px;
+        text-align: center;
+        font-size: 22px;
+    }
+    .img{
+        margin-left: 70px;
+    }
+    .span{
+        font-size: 35px;
+        font-family: "Poppins", sans-serif;
+        font-weight: 600;
+    }
+    .span_paragraph{
+        font-size: 22px;
+        font-family: "Poppins", sans-serif;
+        font-weight: 300;
+    }
+
+}
+@media only screen and (max-width:767px) {
+
+    .Capibality_pargh{
+        text-align: center;
+    text-align: center;
+    color: white;
+    font-size: 25px;
+    margin-left: 2;
+    width: 717px;
+    font-weight: 300;
+    font-family: "Poppins", sans-serif;
+    }
+
+
+}

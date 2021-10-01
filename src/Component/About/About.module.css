@@ -1,0 +1,587 @@
+.about_section {
+    max-width: 1920px;
+    height: 2895px;
+    background-color: #040221;
+    margin: 0%;
+}
+
+.about_container {
+    margin-left: 92px;
+    margin-top: 0%;
+}
+
+.about_text {
+    color: white;
+    font-size: 60px;
+    font-weight: 600;
+    width: 846px;
+    padding-top: 318px;
+
+
+}
+
+.txt_field_about {
+
+    display: flex;
+}
+
+.text_para {
+    color: white;
+    width: 846px;
+    font-weight: 200;
+    font-size: 24px;
+}
+
+.about_img {
+    width: 723px;
+    height: 807px;
+    margin-top: 52px;
+    margin-left: 67px;
+}
+
+.card {
+    width: 855px;
+    height: 955px;
+    background-color: #0E0C38;
+    margin-top: 236px
+}
+
+.btn_cv {
+    border-radius: 40px;
+    background-color: #040221;
+    border: 3px solid white;
+    color: white;
+    margin-top: 176px;
+    width: 301px;
+    height: 96px;
+    font-size: 30px;
+    margin-left: 36px;
+}
+
+.btn_cv:hover {
+
+    background-color: #ff0000;
+
+}
+
+.Portfolio {
+    display: flex;
+    margin-top: 266px;
+}
+
+.portfolio_text {
+
+    color: white;
+}
+
+.line {
+    width: 345px;
+    margin-left: 40px;
+    margin-top: 17px;
+}
+
+.navbar_click {
+    color: white;
+    text-decoration: none;
+    font-size: 22px;
+    font-weight: normal;
+    justify-content: space-between;
+    margin-left: 65px;
+
+}
+
+.navbar_click:hover {
+    color: #ff0000;
+
+}
+
+.portfolio_card {
+    display: flex;
+    height: 520px;
+
+
+}
+
+/* *********************** */
+.container {
+    position: relative;
+    display: flex;
+    margin-top: 22px;
+    margin-left: 20px;
+
+
+}
+
+.image {
+    display: block;
+    width: 505px;
+    height: 510;
+    margin-left: 20px;
+    /* margin-top: 130px; */
+    border-radius: 20px;
+    border: rgb(20, 20, 20) solid;
+    box-shadow: rgba(0, 0, 0, 0.856);
+}
+
+.overlay {
+    position: absolute;
+    top: -0px;
+    bottom: 0;
+    left: 20px;
+    right: 0;
+    width: 505px;
+    height: 500px;
+    opacity: 0;
+    transition: .5s ease;
+    background-color: #ff06067c;
+    border-radius: 30px;
+}
+
+.container:hover .overlay {
+    opacity: 1;
+}
+
+.text {
+    color: white;
+    font-size: 20px;
+    position: absolute;
+    top: 81%;
+    left: 44%;
+    -webkit-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+
+}
+
+
+.back_btn {
+    width: 99px;
+    height: 95px;
+    padding-top: 8px;
+    border-radius: 94px;
+    margin-left: auto;
+    margin-top: -31px;
+    border: 2px solid white;
+    color: white;
+    background-color: #040221;
+}
+
+.next_btn {
+    width: 99px;
+    height: 95px;
+    padding-top: 8px;
+    border-radius: 94px;
+    margin-left: 28px;
+    margin-top: -31px;
+    margin-right: 80px;
+    background-color: #040221;
+    border: 2px solid white;
+    color: white;
+}
+
+.back_btn:hover {
+    background-color: red;
+}
+
+.next_btn:hover {
+    background-color: red;
+
+}
+
+.portfolio_card2 {
+    display: flex;
+
+}
+
+/* ************************************************ */
+@media only screen and (max-width:1024px) {
+    .about_section {
+        max-width: 100%;
+        height: 4795px;
+        background-color: #040221;
+        margin: 0%;
+        padding: 0%;
+    }
+
+    .about_container {
+        margin-left: 30px;
+        margin-top: 0%;
+    }
+
+    .about_text {
+        color: white;
+        font-size: 30px;
+        font-weight: 600;
+        width: 846px;
+        padding-top: 318px;
+
+
+    }
+
+    .txt_field_about {
+
+        display: flex;
+    }
+
+    .text_para {
+        color: white;
+        width: 302px;
+        font-weight: 200;
+        font-size: 20px
+    }
+
+    .about_img {
+        width: 400px;
+        height: 500px;
+        margin-top: 52px;
+    }
+
+    .card {
+        height: 622px;
+        background-color: #0E0C38;
+        margin-top: 236px;
+        margin-left: -342px
+    }
+
+    .btn_cv {
+        border-radius: 40px;
+        background-color: #040221;
+        border: 3px solid white;
+        color: white;
+        margin-top: 176px;
+        width: 301px;
+        height: 96px;
+        font-size: 30px;
+        margin-left: 36px;
+    }
+
+    .btn_cv:hover {
+
+        background-color: #ff0000;
+
+    }
+
+    .Portfolio {
+      
+        margin-top: 266px;
+    }
+
+    .portfolio_text {
+
+        color: white;
+    }
+
+    .line {
+        width: 345px;
+        margin-left: 40px;
+        margin-top: 17px;
+    }
+
+    .navbar_click {
+        color: white;
+        text-decoration: none;
+        font-size: 22px;
+        font-weight: normal;
+        justify-content: space-between;
+        margin-left: 65px;
+
+    }
+
+    .navbar_click:hover {
+        color: #ff0000;
+
+    }
+
+    .portfolio_card {
+       
+        height: 520px;
+
+
+    }
+
+    /* *********************** */
+    .container {
+        position: relative;
+       
+        margin-top: 22px;
+        margin-left: 20px;
+
+
+    }
+
+    .image {
+        display: block;
+        width: 505px;
+        height: 510;
+        margin-left: 20px;
+        /* margin-top: 130px; */
+        border-radius: 20px;
+        border: rgb(20, 20, 20) solid;
+        box-shadow: rgba(0, 0, 0, 0.856);
+    }
+
+    .overlay {
+        position: absolute;
+        top: -0px;
+        bottom: 0;
+        left: 20px;
+        right: 0;
+        width: 505px;
+        height: 500px;
+        opacity: 0;
+        transition: .5s ease;
+        background-color: #ff06067c;
+        border-radius: 30px;
+    }
+
+    .container:hover .overlay {
+        opacity: 1;
+    }
+
+    .text {
+        color: white;
+        font-size: 20px;
+        position: absolute;
+        top: 81%;
+        left: 44%;
+        -webkit-transform: translate(-50%, -50%);
+        -ms-transform: translate(-50%, -50%);
+        transform: translate(-50%, -50%);
+
+    }
+
+ 
+    .back_btn {
+        width: 99px;
+        height: 95px;
+        padding-top: 8px;
+        border-radius: 94px;
+        margin-left: auto;
+        margin-top: -31px;
+        border: 2px solid white;
+        color: white;
+        background-color: #040221;
+    }
+
+    .next_btn {
+        width: 99px;
+        height: 95px;
+        padding-top: 8px;
+        border-radius: 94px;
+        margin-left: 28px;
+        margin-top: -31px;
+        margin-right: 80px;
+        background-color: #040221;
+        border: 2px solid white;
+        color: white;
+    }
+
+    .back_btn:hover {
+        background-color: red;
+    }
+
+    .next_btn:hover {
+        background-color: red;
+
+    }
+}
+/* ******************************************************** */
+@media only screen and (max-width:767px) {
+    .about_section {
+        max-width: 100%;
+        height: 4795px;
+        background-color: #040221;
+        margin: 0%;
+        padding: 0%;
+    }
+
+    .about_container {
+        margin-left: 15px;
+        margin-top: 0%;
+    }
+
+    .about_text {
+        color: white;
+        font-size: 30px;
+        font-weight: 600;
+        width: 750px;
+        padding-top: 318px;
+
+
+    }
+
+    .txt_field_about {
+
+        display: flex;
+    }
+
+    .text_para {
+        color: white;
+        width: 260px;
+        font-weight: 200;
+        font-size: 14px
+    }
+
+    .about_img {
+        margin-left: 32px;
+        width: 397px;
+        height: 365px;
+        margin-top: 52px
+    }
+
+    .card {
+        height: 446px;
+        background-color: #0E0C38;
+        margin-top: 236px;
+        margin-left: -446px;
+    }
+
+    .btn_cv {
+        border-radius: 40px;
+        background-color: #040221;
+        border: 3px solid white;
+        color: white;
+        margin-top: 176px;
+        width: 301px;
+        height: 96px;
+        font-size: 30px;
+        margin-left: 36px;
+    }
+
+    .btn_cv:hover {
+
+        background-color: #ff0000;
+
+    }
+
+    .Portfolio {
+      
+        margin-top: 266px;
+    }
+
+    .portfolio_text {
+
+        color: white;
+    }
+
+    .line {
+        width: 345px;
+        margin-left: 40px;
+        margin-top: 17px;
+    }
+
+    .navbar_click {
+        color: white;
+        text-decoration: none;
+        font-size: 22px;
+        font-weight: normal;
+        justify-content: space-between;
+        margin-left: 65px;
+
+    }
+
+    .navbar_click:hover {
+        color: #ff0000;
+
+    }
+
+    .portfolio_card {
+       
+        height: 520px;
+
+
+    }
+
+    /* *********************** */
+    .container {
+        position: relative;
+       
+        margin-top: 22px;
+        margin-left: 20px;
+
+
+    }
+
+    .image {
+        display: block;
+        width: 505px;
+        height: 510;
+        margin-left: 20px;
+        /* margin-top: 130px; */
+        border-radius: 20px;
+        border: rgb(20, 20, 20) solid;
+        box-shadow: rgba(0, 0, 0, 0.856);
+    }
+
+    .overlay {
+        position: absolute;
+        top: -0px;
+        bottom: 0;
+        left: 20px;
+        right: 0;
+        width: 505px;
+        height: 500px;
+        opacity: 0;
+        transition: .5s ease;
+        background-color: #ff06067c;
+        border-radius: 30px;
+    }
+
+    .container:hover .overlay {
+        opacity: 1;
+    }
+
+    .text {
+        color: white;
+        font-size: 20px;
+        position: absolute;
+        top: 81%;
+        left: 44%;
+        -webkit-transform: translate(-50%, -50%);
+        -ms-transform: translate(-50%, -50%);
+        transform: translate(-50%, -50%);
+
+    }
+
+ 
+    .back_btn {
+        width: 99px;
+        height: 95px;
+        padding-top: 8px;
+        border-radius: 94px;
+        margin-left: auto;
+        margin-top: -31px;
+        border: 2px solid white;
+        color: white;
+        background-color: #040221;
+    }
+
+    .next_btn {
+        width: 99px;
+        height: 95px;
+        padding-top: 8px;
+        border-radius: 94px;
+        margin-left: 28px;
+        margin-top: -31px;
+        margin-right: 80px;
+        background-color: #040221;
+        border: 2px solid white;
+        color: white;
+    }
+
+    .back_btn:hover {
+        background-color: red;
+    }
+
+    .next_btn:hover {
+        background-color: red;
+
+    }
+
+
+
+
+
+
+
+}
